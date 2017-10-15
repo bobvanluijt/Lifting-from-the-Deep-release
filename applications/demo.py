@@ -12,8 +12,8 @@ from lifting import PoseEstimator
 from lifting.utils import draw_limbs
 from lifting.utils import plot_pose
 
-import cv2
 import matplotlib.pyplot as plt
+import cv2
 from os.path import dirname, realpath
 
 DIR_PATH = dirname(realpath(__file__))
